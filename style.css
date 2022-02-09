@@ -1,0 +1,23 @@
+/* Style guide*/
+    /* Colors */
+        /* #FFFFFF = white
+        #E4EAEA = light blue grey 
+        #1A2E38 = almost black but brown 
+        #444444 = dark brown
+        #757576 = light brown grey
+        #03B1F4 = blue  */
+
+
+/* Navigation */
+header .main-menu {
+    height: 4em;
+    background-color: #03B1F4 ;
+}
+header .main-menu ul {
+    padding: 1em;
+}
+header .main-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    
+}

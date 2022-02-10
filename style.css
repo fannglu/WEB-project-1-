@@ -31,10 +31,15 @@ body main .awards img {
 footer {
   background-color: rgba(117, 117, 118, 75%);
 }
-footer #footerMenu {
+/* footer #footerMenu {
   display: flex;
   padding: 0.5em 0 0.5em 0;
   background:#757576 ;
+} */
+footer #footerlogo {
+  height: 5em;
+  padding: 2em;
+  text-align: center;
 }
 footer #footerMenu2 {
   text-align: center;

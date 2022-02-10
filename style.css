@@ -2,7 +2,7 @@
 /* Colors */
 /* #FFFFFF = white
         #E4EAEA = light blue grey 
-        #1A2E38 = almost black but brown 
+        #1A2E38 = almost black but greenish 
         #444444 = dark brown
         #757576 = light brown grey
         #03B1F4 = blue  */
@@ -11,18 +11,24 @@
 
 header .navContainer {
   height: 8em;
-  background-color: #03b1f4;
+  background-color:  #1A2E38;
 }
 header .main-menu {
   display: flex;
   
+  
 }
 header .main-menu ul {
   padding: 1.25em;
+  
+  
+  
 }
 header .main-menu ul li {
   list-style-type: none;
   display: inline-block;
+  color: white;
+  
 }
 /* Body */
 body {
@@ -67,8 +73,53 @@ margin: 2em 0;
 body .homeregister img, #nowhiring img{
   width:80em;
 }
-body .content4, .findlocation {
+body .content4 {
   margin: 2em 2em;
+  display: block;
+}
+body .content5 {
+  padding: 0.25em 0;
+}
+body .content5 button {
+  background-color: #03b1f4;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1em 0;
+  margin: 1em 0;
+  border-radius: 65px 65px 65px;
+  width: 10em;
+  border-style: none;
+  margin: 0 28em;
+}
+body .findlocation {
+  background-image: url("images/home-our-locations-bg.jpeg");
+  height: 45em;
+  color: white;
+  text-align: center;
+}
+body .findlocation h3 {
+  padding: 1em 0;
+  font-size: 40px;
+  padding-top: 4em;
+}
+body .findlocation h2 {
+  font-size: 50px;
+}
+body .findlocation p {
+  text-align: center;
+  font-size: 25px;
+}
+body .findlocation button {
+  background-color: #03b1f4;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1em 0;
+  margin: 1em 0;
+  border-radius: 65px 65px 65px;
+  width: 20em;
+  border-style: none;
 }
 /* Footer */
 footer {

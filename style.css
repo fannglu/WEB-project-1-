@@ -29,7 +29,8 @@ body main .awards img {
 
 /* Footer */
 footer {
-  background-color: rgba(117, 117, 118, 50%);
+  /* background-color: rgba(117, 117, 118, 50%); */
+  background-image: url("images/footer-bg.jpeg")
 }
 /* footer #footerMenu {
   display: flex;

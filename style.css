@@ -23,12 +23,30 @@ header .main-menu ul li {
 body {
   background-color: white;
 }
+body main .awards img {
+  height: 175px;
+}
 
 /* Footer */
 footer {
   background-color: rgba(117, 117, 118, 75%);
 }
-
+footer #footerMenu {
+  display: flex;
+  padding: 0.5em 0 0.5em 0;
+  background:#757576 ;
+}
+footer #footerMenu2 {
+  text-align: center;
+  padding: 1.5em;
+}
+footer #footerMenu a {
+  margin: 0 20px;
+}
+footer #social {
+  text-align: center;
+  margin-left: 9em;
+}
 footer #social .fa {
   padding: 10px;
   font-size: 30px;
@@ -88,15 +106,17 @@ footer #social .fa-linkedin {
   color: white;
 }
 footer #locations {
-    text-align: center;
+  text-align: center;
+
+
 }
 footer #sponsor {
-    text-align: center;
+  text-align: center;
 }
 footer #sponsor img {
-    padding: 1em;
+  padding: 1em;
 }
 footer #copyright {
-    text-align: center;
-    padding: 2em;
+  text-align: center;
+  padding: 2em;
 }

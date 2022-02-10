@@ -30,7 +30,8 @@ body main .awards img {
 /* Footer */
 footer {
   /* background-color: rgba(117, 117, 118, 50%); */
-  background-image: url("images/footer-bg.jpeg")
+  background-image: url("images/footer-bg.jpeg");
+  text-align: center;
 }
 /* footer #footerMenu {
   display: flex;
@@ -38,21 +39,31 @@ footer {
   background:#757576 ;
 } */
 footer #footerlogo {
-  height: 5em;
+  text-align: center;
+  padding: 5em;
+}
+footer #footerlogo img {
+  height: 7em;
+  
+}
+footer #footerMenu2 a {
   padding: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+footer #footerMenu2,
+#social {
   text-align: center;
+  margin: 1em;
 }
-footer #footerMenu2 {
-  text-align: center;
-  padding: 1.5em;
+footer #footerline {
+  border-bottom: rgba(117, 117, 118, 0.5) solid 1px;
+  padding-bottom: 1em;
+  margin: 0 8em;
+  
 }
-footer #footerMenu a {
-  margin: 0 20px;
-}
-footer #social {
-  text-align: center;
-  margin-left: 9em;
-}
+  
+
 footer #social .fa {
   padding: 10px;
   font-size: 30px;
@@ -113,8 +124,10 @@ footer #social .fa-linkedin {
 }
 footer #locations {
   text-align: center;
-
-
+  padding-top: 1em;
+}
+footer #locations p{
+text-decoration: underline;
 }
 footer #sponsor {
   text-align: center;

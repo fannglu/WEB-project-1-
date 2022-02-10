@@ -8,9 +8,14 @@
         #03B1F4 = blue  */
 
 /* Navigation */
-header .main-menu {
-  height: 4em;
+
+header .navContainer {
+  height: 8em;
   background-color: #03b1f4;
+}
+header .main-menu {
+  display: flex;
+  
 }
 header .main-menu ul {
   padding: 1.25em;
@@ -26,7 +31,45 @@ body {
 body main .awards img {
   height: 175px;
 }
-
+body .home  {
+  background-image: url("images/home.jpeg");
+  height: auto;
+  color: white;
+  text-align: center;
+}
+body .home .learningVideo {
+  padding: 20em 0;
+  
+}
+body .home .learningVideo span {
+  font-size: 50px;
+}
+body .home div.learningV {
+  display: flex;
+  padding:4em 18em;
+  
+}
+body .home .learningV p {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 65px 65px 65px;
+  width: 10em;
+  color: #03B1F4;
+  text-align: center;
+  padding: 30px 50px ;
+  margin-left: 1em;
+}
+body .homeregister, #nowhiring {
+text-align: center;
+margin: 2em 0;
+}
+body .homeregister img, #nowhiring img{
+  width:80em;
+}
+body .content4, .findlocation {
+  margin: 2em 2em;
+}
 /* Footer */
 footer {
   /* background-color: rgba(117, 117, 118, 50%); */
@@ -47,7 +90,7 @@ footer #footerlogo img {
   
 }
 footer #footerMenu2 a {
-  padding: 2em;
+  padding: 0 2em;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -60,10 +103,7 @@ footer #footerline {
   border-bottom: rgba(117, 117, 118, 0.5) solid 1px;
   padding-bottom: 2em;
   margin: 0 8em;
-  
 }
-  
-
 footer #social .fa {
   padding: 10px;
   font-size: 30px;

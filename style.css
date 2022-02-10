@@ -1,23 +1,102 @@
 /* Style guide*/
-    /* Colors */
-        /* #FFFFFF = white
+/* Colors */
+/* #FFFFFF = white
         #E4EAEA = light blue grey 
         #1A2E38 = almost black but brown 
         #444444 = dark brown
         #757576 = light brown grey
         #03B1F4 = blue  */
 
-
 /* Navigation */
 header .main-menu {
-    height: 4em;
-    background-color: #03B1F4 ;
+  height: 4em;
+  background-color: #03b1f4;
 }
 header .main-menu ul {
-    padding: 1em;
+  padding: 1.25em;
 }
 header .main-menu ul li {
-    list-style-type: none;
-    display: inline-block;
-    
+  list-style-type: none;
+  display: inline-block;
+}
+/* Body */
+body {
+  background-color: white;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(117, 117, 118, 75%);
+}
+
+footer #social .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 4px;
+  border-radius: 50%;
+}
+footer #social .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+footer #social .fa-instagram {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+  color: white;
+}
+footer #social .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+footer #social .fa-yelp {
+  background: white;
+  color: #ce212c;
+}
+footer #social .fa-youtube {
+  background: #c31e1d;
+  color: white;
+}
+footer #social .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+footer #locations {
+    text-align: center;
+}
+footer #sponsor {
+    text-align: center;
+}
+footer #sponsor img {
+    padding: 1em;
+}
+footer #copyright {
+    text-align: center;
+    padding: 2em;
 }

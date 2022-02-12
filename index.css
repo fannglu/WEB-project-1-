@@ -1,0 +1,88 @@
+/* Index Body */
+body main .awards img {
+  height: 175px;
+}
+body .home {
+  background-image: url("images/home.jpeg");
+  height: auto;
+  color: white;
+  text-align: center;
+}
+body .home .learningVideo {
+  padding: 20em 0;
+}
+body .home .learningVideo span {
+  font-size: 50px;
+}
+body .home div.learningV {
+  display: flex;
+  padding: 4em 18em;
+}
+body .home .learningV p {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 65px 65px 65px;
+  width: 10em;
+  color: #03b1f4;
+  text-align: center;
+  padding: 30px 50px;
+  margin-left: 1em;
+}
+body .homeregister,
+#nowhiring {
+  text-align: center;
+  margin: 2em 0;
+}
+body .homeregister img,
+#nowhiring img {
+  width: 80em;
+}
+body .contentLesson {
+  margin: 2em 2em;
+  display: block;
+}
+body .requestSignUp {
+  padding: 0.25em 0;
+}
+body .requestSignUp button {
+  background-color: #03b1f4;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1em 0;
+  margin: 1em 0;
+  border-radius: 65px 65px 65px;
+  width: 10em;
+  border-style: none;
+  margin: 0 28em;
+}
+body .findlocation {
+  background-image: url("images/home-our-locations-bg.jpeg");
+  height: 45em;
+  color: white;
+  text-align: center;
+}
+body .findlocation h3 {
+  padding: 1em 0;
+  font-size: 40px;
+  padding-top: 4em;
+}
+body .findlocation h2 {
+  font-size: 50px;
+}
+body .findlocation p {
+  text-align: center;
+  font-size: 25px;
+}
+body .findlocation button {
+  background-color: #03b1f4;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1em 0;
+  margin: 1em 0;
+  border-radius: 65px 65px 65px;
+  width: 20em;
+  border-style: none;
+}

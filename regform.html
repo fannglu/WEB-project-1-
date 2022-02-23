@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -13,7 +21,7 @@
     />
 
     <!-- Link External Style Sheet  -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="regform.css" />
 
     <!-- Jquery CDN Link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -40,14 +48,50 @@
           </nav>
         </div>
       </header>
-      <main>
-        <div class="content1"></div>
-        <!-- This is for grid content -->
-        <div class="content2"></div>
-        <!-- This is for grid content -->
-        <div class="content3"></div>
-        <!-- This is for grid content -->
-        <div class="content4">Locations</div>
+
+  <main>
+
+        <!-- Start form -->
+        <div class="bs-example">
+          <div class="formbox">
+          <form action="actions/confirmation.php" class="form justify-content-center" method="post">
+              <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input 
+                      type="email" 
+                      class="form-control" 
+                      id="inputEmail" 
+                      placeholder="Email" 
+                      required>
+              </div>
+              <div class="form-group">
+                  <label for="inputPassword">Password</label>
+                  <input 
+                      type="password" 
+                      class="form-control" 
+                      id="inputPassword" 
+                      placeholder="Password" 
+                      required>
+              </div>
+              <div class="p-2">
+                  <!-- <label class="form-check-label"> -->
+                  <p class="btn btn-outline-primary float-right"> <!--<span class="justify-content-end"></span>-->
+                  Forgot password</p>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-6">
+                  <button type="submit" class="btn btn-primary float-start">SIGN IN</button>
+                </div>
+                <div class="col-sm-6">
+                  <button type="submit" class="btn btn-secondary float-right">SING UP</button>
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+      <!-- End form -->
+
         <!-- This is for grid content -->
         <div class="awards">
           <img src="images/awards/bay-area-parent-2019.jpeg">

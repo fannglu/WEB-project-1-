@@ -306,7 +306,18 @@ footer #copyright {
   margin-top: 500px;
 }
 
+.bs-example {
+  margin: 3em 12em 3em 12em;
+  background-image: url("images/logo-small.png");
+  background-position:left;
+  background-position: top;
+  background-repeat: no-repeat;
+}
 
+.formbox {
+  margin: 10em 12em 3em 12em;
+  padding-top: 100px;
+}
 
 
 

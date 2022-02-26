@@ -4,12 +4,11 @@
  box-shadow: 1px 1px 2px black, 0 0 25px rgb(140, 140, 226), 0 0 5px rgb(40, 40, 122);
  display: flex;
  margin:0 auto;
- background-size:150px;
 }
 main #contacts .contact{
 display: inline-block;
 position: relative;
-padding-left: 80px;
+
 padding-top: 100px;
 text-align: center;
 }
@@ -17,10 +16,6 @@ main #contacts .contact span{
 padding-top: 5px;
 display: block;
 color:blue;
-}
-#contactus main{
-  background-image: no-repeat lightgrey url("images/about-us-hero.jpeg");
-  background-size: 1500px;
 }
 .location ul{
     padding-top: 30px;
@@ -35,11 +30,17 @@ color:blue;
 
 #contactus h1{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 180px;
   padding-bottom: 50px;
+  font-size:50px;
+  color:white;
+  font-family: 'Bodoni Moda';
+  background-image: url("images/about-us-hero.jpeg");
+  background-size: 1500px;
+  height: 440px;
 }
 #contactus p{
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-top: 100px;
   text-align: center;
+  font-family: 'Bodoni Moda';
 }

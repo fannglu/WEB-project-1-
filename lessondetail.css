@@ -1,0 +1,28 @@
+.lessondetail{
+    padding-top: 100px;
+    padding-left:200px;
+    padding-right:200px;
+  
+}
+.lessondetail h1,h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.lessondetail header{
+    background-image: url(images/lap-swimming.jpeg);
+}
+.lessondetail h2{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.location ul{
+    padding-top: 30px;
+    list-style-type: none;
+    padding-left:200px;
+    padding-bottom: 100px;
+}
+.location li:first-child{
+    font-weight: bold;
+    color:blue;
+}

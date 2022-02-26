@@ -61,12 +61,17 @@
 
         <!-- Start form -->
         <div class="container">
-          <div class="row center">
-            <img id="formdecoration" src="images/shark-full.png">
-            <div class="formbox border shadow-lg rounded col-lg-8">
+          <div class="row position-relative">      
+            <span class="position-absolute top-0 start-0"><img src="images/shark-full.png"></span>     
+            <!-- <div class="row position-relative"> -->
+            <!-- <img id="formdecoration" src="images/shark-full.png"> -->
+            <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99 <span class="visually-hidden">unread messages</span></span>
+            <span class="position-absolute top-0 start-0"><img id="formdecoration" src="images/shark-full.png"></span> -->
+
+            <div class="formbox border shadow-lg rounded col-12">
               <h1> SIGN IN </h1>
               <form action="actions/confirmation.php" class="form justify-content-center" method="post">
-                  <!-- example https://bootsnipp.com/snippets/eNg16 -->
+                <!-- example https://bootsnipp.com/snippets/eNg16 -->
               <div class="form-group">
                   <label for="inputEmail">Email</label>
                   <input 
@@ -92,10 +97,10 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-6">
                   <button type="submit" class="btn btn-primary rounded-pill float-end" style="width:200px;">SIGN IN</button>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-6">
                   <button type="submit" class="btn btn-outline-primary rounded-pill float-start" style="width:200px;">SING UP</button>
                 </div>
               </div>

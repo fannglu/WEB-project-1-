@@ -240,19 +240,17 @@ footer #copyright {
 }
 
 .container {
-  margin: 0em 2em 3em 2em;
+  margin: 0em 1em 3em 1em;
 }
 
 .row {
   margin-top: 3em;
   text-align: center;
+  padding-top: 3em;
 }
 
-.center {
-  text-align: center;
-}
 .formbox {
-  min-width: 400px;
+  /* min-width: 400px; */
   min-height: 200px;
   display: center;
   z-index: 100;
@@ -267,20 +265,20 @@ footer #copyright {
 }
 
 form .form-group{
-  z-index: 1;
+  z-index: 100;
   padding: 1em 1em 1em 1em;
   text-align: left;
 }
 
-
 #formdecoration {
-  z-index: 102;
+  z-index: 102; 
+  transform: scale(0.15); 
   margin: 10px auto;
-  position: absolute;
-  transform: scale(0.15); /* rotate(30deg)*/
+  position: absolute;   
   right: 270px;
   top:-300px;
-}
+
+} 
 
 
 

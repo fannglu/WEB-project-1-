@@ -245,6 +245,7 @@ footer #copyright {
 
 .row {
   margin-top: 3em;
+  margin-left: 5em;;
   text-align: center;
   padding-top: 3em;
 }
@@ -255,6 +256,7 @@ footer #copyright {
   display: center;
   z-index: 100;
   padding: 30px;
+  margin-left: 1em;
 }
 
 .formbox h1{
@@ -266,8 +268,9 @@ footer #copyright {
 
 form .form-group{
   z-index: 100;
-  padding: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 0em;
   text-align: left;
+  margin-left: 0em
 }
 
 #formdecoration {

@@ -3,123 +3,265 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width = device-width, initial-scale = 1, shrink-to-fit = no"
+    />
 
-    
     <!-- bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bodoni Moda"
+      rel="stylesheet"
+    />
     <!-- Link External Style Sheet  -->
     <link rel="stylesheet" href="style.css" />
-    
+    <link rel="stylesheet" href="lessonintro.css" />
+    <title>Splashes</title>
   </head>
-  <body>
-    <div id="container">
-      <header>
-        <div class="navContainer">
-          <nav class="main-menu">
-            <div class="headerLogo">
-              <img src="images/logo-small.png" width="400px">
-            </div>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="lessonintro.html">Lesson Intro</a></li>
-              <li><a href="lessondetails.html">Lesson Details</a></li>
 
-              <li><a href="contactus.html">Contact Us</a></li>
-              <li class="active"><a href="regentry.html">Register or Sign In</a></li>
-                <a href="regform.html">Registration Form</a>
-              </li>
-            </ul>
+  <body>
+    <div id="container-fluid">
+      <header>
+        <div
+          class="navContainer navbar-main sticky-lg-top sticky-md-top sticky-sm-top row"
+        >
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <div class="headerLogo">
+                <a class="navbar-brand" href="index.html">
+                  <img
+                    class="img-fluid"
+                    src="images/logo-small.png"
+                    alt="Splahes Logo"
+                    height="90px"
+                  />
+                </a>
+              </div>
+
+              <button
+                class="navbar-toggler m-4"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarContent"
+                aria-controls="navbarContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon bi bi-justify-left"></span>
+                <i class=""></i>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarContent"
+              >
+                <div class="main-menu">
+                  <ul id="mainNav" class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="Index.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="lessonintro.html"
+                        >Swimming Lessons</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="lessondetails.html"
+                        >Swim Programs</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Adult Programs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Location</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a type="button" class="nav-link btn" href="regentry.html"
+                        >Register or Sign In</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </nav>
         </div>
       </header>
-      <main>
-        <div class="content1"></div>
-        <!-- This is for grid content -->
-        <div class="content2"></div>
-        <!-- This is for grid content -->
-        <div class="content3"></div>
-        <!-- This is for grid content -->
-        <div class="content4">Locations</div>
-        <!-- This is for grid content -->
-        <div class="awards">
-          <img src="images/awards/bay-area-parent-2019.jpeg" />
-          <img src="images/awards/bay-area-parent-gold2020.png" />
-          <img src="images/awards/best-colorado-community-media-2021.jpeg" />
-          <img src="images/awards/best-of-la-kids-winner.jpeg" />
-          <img src="images/awards/best-of-the-best-2018.jpeg" />
-          <img src="images/awards/colorado-parenting-family-fav2019.jpeg" />
-          <img src="images/awards/colorado-parenting-family-fav2020.png" />
-          <img src="images/awards/colorado-parenting-family-fav2021.png" />
-          <img src="images/awards/gold-daisy-award-finalist-2018.jpeg" />
-          <img src="images/awards/mla-swim-lessons-winner-2020-250x250.png" />
-          <img src="images/awards/website-parenting-oc-2019.jpeg" />
+      <main id="lessonDetails" class="">
+        <div class="row lessonimg">
+          <div>
+            <p id="lessonMT">Which Lesson is Best?</p>
+          </div>
+        </div>
+        <div class="lessonH">
+          <p>Our Lesson Types</p>
+        </div>
+        <div class="container lessoninfo">
+          <div class="content">
+            <p class="fw-bold lh-lg title">Private Swim Lessons</p>
+            <p class="lh-lg">
+              Our <a href="#">private swim lessons</a> provide one-on-one
+              instruction for students ages three months through adult. Private
+              swim lessons are the best option for accelerated learning. Each
+              lesson will allow our instructors to build on the momentum and
+              skills taught in the previous lesson with minimal downtime. From
+              the basics of putting your face into the water to refining your
+              stroke technique, private lessons will offer the highest rate of
+              progress.
+              <br />
+              <a href="#">Learn more here!</a>
+            </p>
+          </div>
+          <!-- This is for grid content -->
+          <div class="content">
+            <p class="fw-bold lh-lg title">Semi-Private Swim Lessons</p>
+            <p class="lh-lg">
+              At Splashes, our
+              <a href="#">semi-private swim lessons offer</a> students ages 2.5
+              to 13 the opportunity to interact with another student of a
+              similar age and ability while still receiving personal attention.
+              Whether you would like us to pair your child with another student
+              of similar age and ability or would like to take lessons with a
+              friend or sibling, our semi-private lessons are a cost effective
+              option. Students also have the opportunity to observe one another
+              in the lesson.<br />
+              <a href="#">Learn more here!</a>
+            </p>
+          </div>
+          <!-- This is for grid content -->
+          <div class="content">
+            <p class="fw-bold lh-lg title">Parent & Me Lessons</p>
+            <p class="lh-lg">
+              Our <a href="#">Parent and Me swimming lessons</a> (also known as
+              “Mommy and Me” or “Daddy and Me” classes) gives parents the
+              opportunity to be hands-on with their little one while our
+              instructors facilitate the learning process between you and your
+              child. These lessons provide a fun and relaxed environment for you
+              and your child in the water. Children ages 3 months through 3
+              years of age can participate. However, we encourage children ages
+              2.5 and older to participate in private or semi-private swim
+              lessons.
+              <br />
+              <a href="#">Learn more here!</a>
+            </p>
+          </div>
+          <div class="content">
+            <p class="fw-bold lh-lg title">Stroke Clinic</p>
+            <p class="lh-lg">
+              Splashes <a href="#">Stroke Clinics</a> give students the
+              opportunity to advance their swimming techniques while in a group
+              setting. Our Stroke Clinic classes place emphasis on proper
+              technique over speed and prepare students for swim team.
+            </p>
+            <p class="lh-lg">
+              Swimmers ages 5 and older who are level 8 or higher can benefit
+              from participating in these 40 minute classes. A strong technical
+              foundation will ensure that students' progress much faster when
+              the time comes for them to work on speed. Our stroke clinics are
+              exciting and fast paced, where each student will receive a great
+              workout.
+              <br />
+              <a href="#">Learn more here!</a>
+            </p>
+          </div>
+          <div class="content">
+            <p class="fw-bold lh-lg title">Adult Swim Lessons</p>
+            <p class="lh-lg">
+              It is never too late to learn how to swim! Whether you are looking
+              to learn the basics or improve your technique to use swimming as a
+              form of exercise, our trained instructors will tailor each lesson
+              to fit your individual needs. At Splashes, our adult lessons are
+              geared for swimmers ages 13 and older. From beginners to advanced,
+              our <a href="#">adult swimming</a> lessons are a great option for
+              those looking to conquer their fear of the water or who are
+              looking to become stronger swimmers.
+              <br />
+              <a href="#">Learn more here!</a>
+            </p>
+          </div>
         </div>
       </main>
 
       <footer>
-        <div id="footer">
-          <div id="footerMenu">
-            <div id="footerlogo">
-              <img src="images/wave-small.png" />
-            </div>
+        <div id="footer" class="row">
+          <div id="footerlogo">
+            <img class="img-fluid" src="images/wave-small.png" />
+          </div>
+        </div>
+        <div id="footerMenu" class="row">
+          <div class="col-8 col-md-12 col-lg-8" id="footerMenu2">
+            <a>About</a>
+            <a>Locations</a>
+            <a>Faqs</a>
+            <a>Contact</a>
+            <a>Register/Sign In</a>
+            <a>Careers</a>
+          </div>
 
-            <div id="footerMenu2">
-              <a>About</a>
-              <a>Locations</a>
-              <a>Faqs</a>
-              <a>Contact</a>
-              <a>Register/Sign In</a>
-              <a>Careers</a>
-            </div>
-            
-            <div id="social">
-              <a href="#" class="fa fa-linkedin"></a>
-              <a href="#" class="fa fa-instagram"></a>
-              <a href="#" class="fa fa-twitter"></a>
-              <a href="#" class="fa fa-yelp"></a>
-              <a href="#" class="fa fa-facebook"></a>
-              <a href="#" class="fa fa-youtube"></a>
-            </div>
-            <div id="footerline"></div>
+          <div class="col-4 col-md-12 col-lg-4" id="social">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-yelp"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
           </div>
-          <div id="locations">
-            <ul>
-              <h4>Orange County</h4>
-              <p>(949) 450-0777</p>
-              <h4>San Diego County</h4>
-              <p>(760) 603-9400</p>
-              <h4>Los Angeles County</h4>
-              <p>(626) 836-1200</p>
-              <h4>Northern California</h4>
-              <p>(408) 279-1700</p>
-              <h4>Denver</h4>
-              <p>(720) 344-7700</p>
-            </ul>
+        </div>
+
+        <div id="locations" class="row">
+          <div class="location col-12 col-lg-2">
+            <h4>Orange County</h4>
+            <p>(949) 450-0777</p>
           </div>
-          <div id="footerline"></div>
-          <div id="sponsor">
+          <div class="location col-12 col-lg-2">
+            <h4>San Diego County</h4>
+            <p>(760) 603-9400</p>
+          </div>
+          <div class="location col-12 col-lg-2">
+            <h4>Los Angeles County</h4>
+            <p>(626) 836-1200</p>
+          </div>
+          <div class="location col-12 col-lg-2">
+            <h4>Northern California</h4>
+            <p>(408) 279-1700</p>
+          </div>
+          <div class="location col-12 col-lg-2">
+            <h4>Denver</h4>
+            <p>(720) 344-7700</p>
+          </div>
+        </div>
+
+        <div id="footerB" class="row">
+          <div id="sponsor" class="col-sm-6 col-lg-9">
             <img src="images/sponsors/footer-usssa-logo-2.png" />
             <img src="images/sponsors/footer-ndpa-logo.png" />
             <img src="images/sponsors/footer-member-issa-logo.png" />
-            <img src="images/sponsors/footer-stop-drowning-now-logo.png" />      
+            <img src="images/sponsors/footer-stop-drowning-now-logo.png" />
           </div>
-          <div id="copyright">
+          <div id="copyright" class="col-sm-6 col-lg-3">
             <span> &copy 2022 Splahes.</span>
             <p>All Rights Reserved</p>
           </div>
         </div>
       </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </div>
-    <!-- Bootsrap java/jquery -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- Jquery CDN Link -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>

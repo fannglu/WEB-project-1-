@@ -306,17 +306,37 @@ footer #copyright {
   margin-top: 500px;
 }
 
-.bs-example {
-  margin: 3em 12em 3em 12em;
-  background-image: url("images/logo-small.png");
-  background-position:left;
-  background-position: top;
+/* Start Form Page*/
+.form-header img {
+  width: 200px;
+}
+
+
+.container {
+  margin: 3em 2em 3em 2em;
+  background-image: url("images/shark-full.png");
   background-repeat: no-repeat;
 }
 
+
 .formbox {
-  margin: 10em 12em 3em 12em;
-  padding-top: 100px;
+  text-align: left;
+  margin-top: 2em;
+  padding-left: 6em;
+  padding-top:8em;
+}
+
+.formbox form-group{
+  z-index: 1;
+}
+.formbox form-group-img {
+  padding-left:100px;
+  padding-top:300px;
+  z-index: 2;
+}
+
+.row {
+  margin-top: 3em;
 }
 
 

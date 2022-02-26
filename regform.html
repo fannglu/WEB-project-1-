@@ -50,11 +50,23 @@
       </header>
 
   <main>
+        <!-- Start header img-->
+        <div class="row">
+          <div class="form-header text-center">
+            <img src="images/splash-wave.png" class="col-lg-3">
+          </div>
+        </div>
+
+
+
 
         <!-- Start form -->
-        <div class="bs-example">
-          <div class="formbox">
+        <div class="container">
+          <div class="formbox col-lg-8">
           <form action="actions/confirmation.php" class="form justify-content-center" method="post">
+            <!-- <div class="form-group position-relative">
+              <img src="images/shark-full.png">
+            </div>      -->
               <div class="form-group">
                   <label for="inputEmail">Email</label>
                   <input 
@@ -73,20 +85,48 @@
                       placeholder="Password" 
                       required>
               </div>
-              <div class="p-2">
+              <div class="p-2 col d-flex justify-content-end">
                   <!-- <label class="form-check-label"> -->
-                  <p class="btn btn-outline-primary float-right"> <!--<span class="justify-content-end"></span>-->
-                  Forgot password</p>
+                  <p><a href=""> <!--<span class="justify-content-end"></span>-->
+                  Forgot password</a></p>
               </div>
 
-              <div class="form-group row">
+              <!-- <div class="row">
                 <div class="col-sm-6">
                   <button type="submit" class="btn btn-primary float-start">SIGN IN</button>
                 </div>
                 <div class="col-sm-6">
                   <button type="submit" class="btn btn-secondary float-right">SING UP</button>
                 </div>
-              </div>
+              </div> -->
+              <div class="container">
+              <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link bg-primary text-white"
+                    id="tab-login"
+                    data-mdb-toggle="pill"
+                    href="#pills-login"
+                    role="tab"
+                    aria-controls="pills-login"
+                    aria-selected="true"
+                    >Sign In</a
+                  >
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link bg-light"
+                    id="tab-register"
+                    data-mdb-toggle="pill"
+                    href="#pills-register"
+                    role="tab"
+                    aria-controls="pills-register"
+                    aria-selected="false"
+                    >Sign Up</a
+                  >
+                </li>
+              </ul>
+            </div>
           </form>
         </div>
       </div>

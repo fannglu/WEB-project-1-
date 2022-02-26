@@ -234,7 +234,7 @@ footer #copyright {
   text-align: center;
 }
 #regentry-main .row {
-  margin: 2em 2em 2em 2em;
+  margin: 3em 2em 2em 2em;
 }
 #regentry-main .row img {
   padding-top:0.5em;
@@ -250,9 +250,6 @@ footer #copyright {
   z-index: 2;
   text-align: center;
 
-}
-#regentry-main .buttonvediogroup {
-  display: block;
 }
 /* #regentry-main .regentry-begin .infovedio div {
   z-index: 2;
@@ -296,12 +293,10 @@ footer #copyright {
   font-display: 4em;
   text-align: center;
 }
-
-.regentry-begin .buttonvediogroup {
-  display: inline-block;
-  padding-top: 400px;
-
+.regentry-begin-text {
+  margin-top:5em;
 }
+
 
 .regtext-col-content h2 {
 	font-family: 'Bodoni Moda';

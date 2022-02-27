@@ -1,131 +1,96 @@
-/* Style guide*/
-/* Colors */
-/* #FFFFFF = white
-        #E4EAEA = light blue grey 
-        #1A2E38 = almost black but greenish 
-        #444444 = dark brown
-        #757576 = light brown grey
-        #03B1F4 = blue  */
-
-/* Navigation */
+header {
+  width: 100%;
+  padding: 0;
+}
 
 header .navContainer {
   height: 8em;
-  background-color:  #1A2E38;
+  background-color: #1a2e38;
+ /* --bs-gutter-x: 0; */
+  height: 100%;
+  display: flex;
+}
+
+header .headerlogo img {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  
+}
+
+header fa-solid {
+  color: black;
 }
 header .main-menu {
   display: flex;
-  
-  
 }
 header .main-menu ul {
-  padding: 1.25em;
-  
-  
-  
+  position: relative;
+  margin-bottom: 45px;
 }
-header .main-menu ul li {
+.main-menu #mainNav .nav-link {
   list-style-type: none;
   display: inline-block;
   color: white;
-  
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 1em;
+}
+
+.main-menu #mainNav .nav-link.btn {
+  background-color: white;
+  color: #03b1f4;
+  border-radius: 40px;
+  width: auto;
+  padding: 8px 20px;
+}
+
+header .navbar-expand-lg {
+  justify-content: flex-end;
+}
+.navbar-main .navbar {
+  width: 100%;
+}
+.navbar .megamenu {
+  padding: 1rem;
+}
+.list-unstyled a {
+  color: #03B1F4 ;
+  font-weight: bold;
+}
+.list-unstyled li {
+  padding-top: 2px;
 }
 /* Body */
 body {
   background-color: white;
 }
-body main .awards img {
-  height: 175px;
+
+#awardmain {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 3em;
+  padding-top: 3em;
 }
-body .home  {
-  background-image: url("images/home.jpeg");
+#award {
+  margin: 0 8em 0 8em;
+  padding-top: 2em;
+}
+
+#award .awards img {
+  padding: 0.5em 0 0.5em 0;
+  width: 167px;
   height: auto;
-  color: white;
-  text-align: center;
 }
-body .home .learningVideo {
-  padding: 20em 0;
-  
-}
-body .home .learningVideo span {
-  font-size: 50px;
-}
-body .home div.learningV {
-  display: flex;
-  padding:4em 18em;
-  
-}
-body .home .learningV p {
-  font-size: 25px;
-  font-weight: bolder;
-  background-color: white;
-  border-radius: 65px 65px 65px;
-  width: 10em;
-  color: #03B1F4;
-  text-align: center;
-  padding: 30px 50px ;
-  margin-left: 1em;
-}
-body .homeregister, #nowhiring {
-text-align: center;
-margin: 2em 0;
-}
-body .homeregister img, #nowhiring img{
-  width:80em;
-}
-body .content4 {
-  margin: 2em 2em;
-  display: block;
-}
-body .content5 {
-  padding: 0.25em 0;
-}
-body .content5 button {
-  background-color: #03b1f4;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 1em 0;
-  margin: 1em 0;
-  border-radius: 65px 65px 65px;
-  width: 10em;
-  border-style: none;
-  margin: 0 28em;
-}
-body .findlocation {
-  background-image: url("images/home-our-locations-bg.jpeg");
-  height: 45em;
-  color: white;
-  text-align: center;
-}
-body .findlocation h3 {
-  padding: 1em 0;
-  font-size: 40px;
-  padding-top: 4em;
-}
-body .findlocation h2 {
-  font-size: 50px;
-}
-body .findlocation p {
-  text-align: center;
-  font-size: 25px;
-}
-body .findlocation button {
-  background-color: #03b1f4;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 1em 0;
-  margin: 1em 0;
-  border-radius: 65px 65px 65px;
-  width: 20em;
-  border-style: none;
-}
+
 /* Footer */
 footer {
-  /* background-color: rgba(117, 117, 118, 50%); */
   background-image: url("images/footer-bg.jpeg");
-  text-align: center;
+  background-size: cover;
+  padding-top: 3em;
+}
+#footer {
+  justify-content: center;
 }
 /* footer #footerMenu {
   display: flex;
@@ -134,31 +99,41 @@ footer {
 } */
 footer #footerlogo {
   text-align: center;
-  padding: 5em;
+  padding-top: 3em;
 }
 footer #footerlogo img {
   height: 7em;
-  
+  width: auto;
+}
+footer #footerMenu {
+  /* display: flex; */
+  justify-content: space-between;
+  width: auto;
+  margin: 3em 3em 0 3em;
+  /* margin: 1em 0 1em 0; */
+  /* justify-content: center; */
+}
+#footerMenu2 {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  padding: 10px;
+  margin-bottom: 3em;
+}
+#social {
+  text-align: end;
 }
 footer #footerMenu2 a {
-  padding: 0 2em;
+  padding: 10px 10px;
   font-weight: bold;
   text-decoration: underline;
 }
-footer #footerMenu2,
-#social {
-  text-align: center;
-  margin: 1em;
-}
-footer #footerline {
-  border-bottom: rgba(117, 117, 118, 0.5) solid 1px;
-  padding-bottom: 2em;
-  margin: 0 8em;
-}
+
 footer #social .fa {
   padding: 10px;
   font-size: 30px;
-  width: 30px;
+  width: 48px;
   text-align: center;
   text-decoration: none;
   margin: 4px 4px;
@@ -214,19 +189,203 @@ footer #social .fa-linkedin {
   color: white;
 }
 footer #locations {
-  text-align: center;
+  padding: 1em 0;
+  /* display: flex; */
+  justify-content: center;
+  border-bottom: rgba(117, 117, 118, 0.5) solid 1px;
+  border-top: rgba(117, 117, 118, 0.5) solid 1px;
+  margin: 0 6em;
+}
+
+footer .location h4 {
+  font-size: 16px;
   padding-top: 1em;
-}
-footer #locations p{
-text-decoration: underline;
-}
-footer #sponsor {
   text-align: center;
+}
+footer #locations p {
+  text-decoration: underline;
+  text-align: center;
+}
+footer #footerB {
+  justify-content: space-between;
+  padding-top: 1em;
+  margin: 0 3em 0 3em;
+  padding-bottom: 5em;
+  
 }
 footer #sponsor img {
   padding: 1em;
+   text-align: right;
 }
 footer #copyright {
   text-align: center;
-  padding: 2em;
+  padding: 0 2em;
+  text-align: end;
+}
+
+@media (max-width: 768px) {
+  header {
+    width: auto;
+  }
+
+  #aboutImg {
+    width: 100%;
+    min-height: 600px;
+  }
+
+  .headerLogo img {
+    height: auto;
+    width: 220px;
+  }
+  #award img {
+    width: auto;
+  }
+
+  footer #footerlogo img {
+    height: auto;
+  }
+  footer #footerMenu {
+    padding-bottom: 1em;
+    text-align: center;
+    float: none;
+    display: block;
+    height: auto;
+    margin: auto;
+
+    width: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+  footer #footerMenu #social,
+  #footerMenu2 {
+    display: block;
+    float: none;
+    width: auto;
+    margin: 0;
+    font-size: 70%;
+  }
+  footer #footerMenu2 a {
+    padding: 0 2px;
+  }
+  
+
+  footer #locations {
+    margin: 1em 2em 0 2em;
+    float: none;
+    font-size: 70%;
+    margin: auto;
+  }
+  footer .location {
+    text-align: center;
+    /* width: 80%; */
+  }
+  #footerB  {
+    display: flex;
+    width: auto;
+    margin: 0 0 ;
+  }
+  #sponsor {
+    width: auto;
+  }
+  
+  #sponsor img {
+    height: 70px;
+    display: flex;
+    width: auto;
+    /* justify-content: right; */
+    
+  }
+  
+  #copyright {
+    width: auto;
+    text-align: center;
+  }
+
+  footer #social .fa {
+  padding: 10px;
+  font-size:20px;
+  width: 38px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+}
+}
+
+@media (max-width: 992px) {
+  header {
+    width: auto;
+    padding: 0%;
+  }
+
+  .headerLogo img {
+    height: auto;
+    width: 220px;
+  }
+
+  #navbar-nav {
+    position: relative;
+  }
+
+  #main {
+    width: auto;
+    padding: 0;
+  }
+  #home .main-col-content {
+    padding: 25px;
+    margin-top: 1em;
+  }
+  footer #footerMenu {
+    display: block;
+    width: auto;
+    /* text-align: center; */
+
+    float: none;
+  }
+
+  footer #social,
+  #footerMenu2 {
+    text-align: center;
+    margin: 1.5em 0;
+  }
+  footer #footerB {
+    margin: 0%;
+    display: flex;
+  }
+  #sponsor {
+    width: 100%;
+   
+  }
+
+  footer #footerB img {
+   display: inline-flex;
+    padding: 0;
+    width: 50px;
+    height: auto;
+  }
+  #copyright {
+    position: absolute;
+     font-size: 70%;
+    /* justify-items: right; */
+    padding: 0%;
+    width: 100%;
+    float: right;
+    margin: 0;
+
+  }
+
+  footer #locations {
+    float: none;
+    font-size: 100%;
+    justify-content: center;
+  }
+}
+@media (min-width: 992px) {
+  .navbar .megamenu {
+    width: 100%;
+  }
+}
+#awardmain {
+  font-family: "Bodoni Moda";
+  color: black;
 }

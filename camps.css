@@ -1,7 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@800&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@800&family=Open+Sans:wght@700&display=swap');
 .bg-camps{
     background-image:url('images/summer-swim-camps.jpeg') ;
-    height: 100vh;
+    height: 50vh;
     background-repeat: no-repeat;
     align-self: center;
 
+}
+.title{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 6vw;
+    color: #FFF;
+    text-align: center;
+}
+.text-center{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+.main-content{
+    font-family: 'Open Sans';
+    font-size: 1em , 16px;
+} 
+.locations{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+}
+ul {
+    font-family: 'Open Sans';
+    font-size: 1em , 16px;
+    text-decoration: underline;
+    color:#03B1F4;
 }

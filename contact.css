@@ -4,6 +4,9 @@
  box-shadow: 1px 1px 2px black, 0 0 25px rgb(140, 140, 226), 0 0 5px rgb(40, 40, 122);
  display: flex;
  margin:0 auto;
+
+ border-width: 20px;
+ border-color: white;
 }
 main #contacts .contact{
 display: inline-block;
@@ -27,17 +30,12 @@ color:blue;
     font-weight: bold;
     color:blue;
 }
-
 #contactus h1{
   text-align: center;
-  padding-top: 180px;
-  padding-bottom: 50px;
   font-size:50px;
   color:white;
   font-family: 'Bodoni Moda';
-  background-image: url("images/about-us-hero.jpeg");
-  background-size: 1500px;
-  height: 440px;
+  margin-top: -100px;
 }
 #contactus p{
   padding-top: 100px;

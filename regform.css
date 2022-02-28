@@ -6,12 +6,19 @@
         #444444 = dark brown
         #757576 = light brown grey
         #03B1F4 = blue  */
+.container-fluid {
+  padding: 0 0;
+}
 
 /* Navigation */
+header {
+  margin: 0em 0em 0em 0em;
+}
 
 header .navContainer {
-  height: 8em;
+  height: 11em;
   background-color:  #1A2E38;
+  margin:0em 0em;
 }
 header .main-menu {
   display: flex;  
@@ -239,10 +246,6 @@ footer #copyright {
   width: 200px;
 }
 
-.container {
-  margin: 0em 1em 3em 1em;
-}
-
 .row {
   margin-top: 3em;
   margin-left: 5em;;
@@ -282,6 +285,74 @@ form .form-group{
   top:-300px;
 
 } 
+
+#about .aboutImg {
+  background-image: url("images/about-us-hero.jpeg");
+  background-size: cover;
+  height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+}
+#aboutText {
+  font-family: "Bodoni Moda";
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+#about #aboutPhil {
+  height: 450px;
+  text-align: center;
+  background-image: url("images/about-our-philosophy-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+#philText {
+  font-family: "Bodoni Moda";
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0 4em 0 4em;
+}
+#aboutJob {
+  height: 450px;
+  text-align: center;
+  background-image: url("images/about-we-do-a-pretty-good-job-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+#aboutjobText {
+  font-family: "Bodoni Moda";
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0 4em 0 4em;
+}
+#awardmain {
+  font-family: "Bodoni Moda";
+  color: black;
+}
+
 
 
 

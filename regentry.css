@@ -331,7 +331,7 @@ footer #copyright {
 
 .regentry-location div {
   z-index: 2;
-  margin-top: -450px;
+  margin-top: -500px;
   padding-left: 100px;
   text-align: center;
   color:white;
@@ -362,10 +362,80 @@ footer #copyright {
   padding-bottom:10px;
 }
 
-.awards {
-  margin-top: 500px;
+
+   
+/* about page  */
+#about .aboutImg {
+  background-image: url("images/about-us-hero.jpeg");
+  background-size: cover;
+  height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+}
+#aboutText {
+  font-family: "Bodoni Moda";
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+#about #aboutPhil {
+  height: 450px;
+  text-align: center;
+  background-image: url("images/about-our-philosophy-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+#philText {
+  font-family: "Bodoni Moda";
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0 4em 0 4em;
+}
+#aboutJob {
+  height: 450px;
+  text-align: center;
+  background-image: url("images/about-we-do-a-pretty-good-job-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
+#aboutjobText {
+  font-family: "Bodoni Moda";
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0 4em 0 4em;
+}
+#awardmain {
+  font-family: "Bodoni Moda";
+  color: black;
+}
+
+.awards {
+  margin-top:300px;
+  margin-bottom:100px;
+}
 
 
 

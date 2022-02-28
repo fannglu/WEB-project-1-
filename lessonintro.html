@@ -26,6 +26,7 @@
     />
     <!-- Link External Style Sheet  -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="lessonintro.css" />
     <title>Splashes</title>
   </head>
@@ -39,7 +40,7 @@
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <div class="headerLogo">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="Index.html">
                   <img
                     class="img-fluid"
                     src="images/logo-small.png"
@@ -59,7 +60,6 @@
                 aria-label="Toggle navigation"
               >
                 <span class="navbar-toggler-icon bi bi-justify-left"></span>
-                <i class=""></i>
               </button>
               <div
                 class="collapse navbar-collapse justify-content-end"
@@ -67,24 +67,170 @@
               >
                 <div class="main-menu">
                   <ul id="mainNav" class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                       <a class="nav-link" href="Index.html">About</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                       <a class="nav-link" href="lessonintro.html"
                         >Swimming Lessons</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="lessondetails.html"
+                      <a class="nav-link active" href="camps.html"
                         >Swim Programs</a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Adult Programs</a>
+                      <a class="nav-link" href="lessondetails.html"
+                        >Adult Programs</a
+                      >
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Location</a>
+
+                    <li class="nav-item dropdown has-megamenu">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        id="locationDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                        href="#"
+                        >Location</a
+                      >
+
+                      <div class="dropdown-menu megamenu" role="menu">
+                        <div class="row g-2">
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <h6 class="title fw-bold">Orange Country</h6>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#">Anaheim Hills @ LA Fitness</a>
+                                </li>
+                                <li>
+                                  <a href="#">Huntington Beach</a>
+                                </li>
+                                <li>
+                                  <a href="#">Irvine</a>
+                                </li>
+                                <li>
+                                  <a href="#">Yorba Linda @ LA Fitness</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <h6 class="title fw-bold">San Diego County</h6>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#">Carlsbad</a>
+                                </li>
+                                <li>
+                                  <a href="#">Poway @ LA Fitness</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <h6 class="title fw-bold">San Francisco</h6>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#"
+                                    >San Francisco-20th Avenue @ City Sports
+                                    Club</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <h6 class="title fw-bold">San Gabriel Valley</h6>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#">Alhambra-Fremont @ LA Fitness</a>
+                                </li>
+                                <li>
+                                  <a href="#">Arcadia @ LA Fitness</a>
+                                </li>
+                                <li>
+                                  <a href="#">Diamond Bar @ LA Fitness</a>
+                                </li>
+                                <li>
+                                  <a href="#">Pasedena</a>
+                                </li>
+                                <li>
+                                  <a href="#">West Covina @ LA Fitness</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row g-2">
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <h6 class="title fw-bold">Los Angeles Country</h6>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#">Culver City @ LA Fitness</a>
+                                </li>
+                                <li>
+                                  <a href="#">Harbor City @ LA Fitness</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <h6 class="title fw-bold">Silicon Valley</h6>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#"
+                                    >North San Jose @ City Sports Club</a
+                                  >
+                                </li>
+                                <li>
+                                  <a href="#"
+                                    >San Jose-Almaden @ City Sports Club</a
+                                  >
+                                </li>
+                                <li>
+                                  <a href="#">San Jose-Bascom</a>
+                                </li>
+                                <li>
+                                  <a href="#"
+                                    >San Jose-Blossom Hill @ City Sports Club</a
+                                  >
+                                </li>
+                                <li>
+                                  <a href="#">Sunnyvale @ City Sports Club</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <h6 class="title fw-bold">Almeda County</h6>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#">Hayward @ City Sports Club</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="col-megamenu">
+                              <h6 class="title">Denver</h6>
+                              <ul class="list-unstyled">
+                                <li>
+                                  <a href="#">Highlands Ranch</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="contactus.html">Contact Us</a>
@@ -262,6 +408,19 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+          /////// Prevent closing from click inside dropdown
+          document
+            .querySelectorAll(".dropdown-menu")
+            .forEach(function (element) {
+              element.addEventListener("click", function (e) {
+                e.stopPropagation();
+              });
+            });
+        });
+        // DOMContentLoaded  end
+      </script>
     </div>
   </body>
 </html>

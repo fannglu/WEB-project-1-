@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@800&family=Open+Sans:wght@700&display=swap');
 .bg-camps{
     background-image:url('images/summer-swim-camps.jpeg') ;
-    height: 50vh;
+    height: 65vh;
     background-repeat: no-repeat;
     align-self: center;
 
@@ -19,6 +19,8 @@
     font-family: 'Bodoni Moda', serif;
     font-size: 2em;
     font-weight: 800;
+    padding-bottom: 30px;
+    
 }
 .main-content{
     font-family: 'Open Sans';

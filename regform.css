@@ -127,118 +127,12 @@ body .findlocation button {
   width: 20em;
   border-style: none;
 }
-/* Footer */
-footer {
-  /* background-color: rgba(117, 117, 118, 50%); */
-  background-image: url("images/footer-bg.jpeg");
-  text-align: center;
-}
-/* footer #footerMenu {
-  display: flex;
-  padding: 0.5em 0 0.5em 0;
-  background:#757576 ;
-} */
-footer #footerlogo {
-  text-align: center;
-  padding: 5em;
-}
-footer #footerlogo img {
-  height: 7em;
-  
-}
-footer #footerMenu2 a {
-  padding: 0 2em;
-  font-weight: bold;
-  text-decoration: underline;
-}
-footer #footerMenu2,
-#social {
-  text-align: center;
-  margin: 1em;
-}
-footer #footerline {
-  border-bottom: rgba(117, 117, 118, 0.5) solid 1px;
-  padding-bottom: 2em;
-  margin: 0 8em;
-}
-footer #social .fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 4px 4px;
-  border-radius: 50%;
-}
-footer #social .fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-footer #social .fa-instagram {
-  background: radial-gradient(
-      circle farthest-corner at 35% 90%,
-      #fec564,
-      transparent 50%
-    ),
-    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
-    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
-    radial-gradient(
-      ellipse farthest-corner at 20% -50%,
-      #5258cf,
-      transparent 50%
-    ),
-    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
-    radial-gradient(
-      ellipse farthest-corner at 60% -20%,
-      #893dc2,
-      transparent 50%
-    ),
-    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
-    linear-gradient(
-      #6559ca,
-      #bc318f 30%,
-      #e33f5f 50%,
-      #f77638 70%,
-      #fec66d 100%
-    );
-  color: white;
-}
-footer #social .fa-twitter {
-  background: #55acee;
-  color: white;
-}
-footer #social .fa-yelp {
-  background: white;
-  color: #ce212c;
-}
-footer #social .fa-youtube {
-  background: #c31e1d;
-  color: white;
-}
-footer #social .fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-footer #locations {
-  text-align: center;
-  padding-top: 1em;
-}
-footer #locations p{
-text-decoration: underline;
-}
-footer #sponsor {
-  text-align: center;
-}
-footer #sponsor img {
-  padding: 1em;
-}
-footer #copyright {
-  text-align: center;
-  padding: 2em;
-}
+
 
 .awards {
-  margin-top: 500px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 /* Start Reg Form Page*/

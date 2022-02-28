@@ -141,13 +141,15 @@ footer #footerMenu2 a {
 }
 
 footer #social .fa {
-  padding: 10px;
+  vertical-align: middle;
   font-size: 30px;
   width: 48px;
+  height:48px;
   text-align: center;
   text-decoration: none;
   margin: 4px 4px;
   border-radius: 50%;
+  line-height: 48px !important;
 }
 footer #social .fa-facebook {
   background: #3b5998;

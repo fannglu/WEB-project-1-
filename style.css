@@ -1,13 +1,4 @@
-/* Style guide*/
-/* Colors */
-/* #FFFFFF = white
-        #E4EAEA = light blue grey 
-        #1A2E38 = almost black but greenish 
-        #444444 = dark brown
-        #757576 = light brown grey
-        #03B1F4 = blue  */
-
-/* Navigation */
+/* header */
 header {
   width: 100%;
   padding: 0;
@@ -321,7 +312,6 @@ footer #copyright {
   margin: 2px 2px;
   border-radius: 50%;
 }
-
 
 @media (max-width: 992px) {
   header {

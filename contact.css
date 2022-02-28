@@ -1,0 +1,44 @@
+/* contact page */
+.contact img{
+ width: 130px;
+ box-shadow: 1px 1px 2px black, 0 0 25px rgb(140, 140, 226), 0 0 5px rgb(40, 40, 122);
+ display: flex;
+ margin:0 auto;
+
+ border-width: 20px;
+ border-color: white;
+}
+main #contacts .contact{
+display: inline-block;
+position: relative;
+
+padding-top: 100px;
+text-align: center;
+}
+main #contacts .contact span{
+padding-top: 5px;
+display: block;
+color:blue;
+}
+.location ul{
+    padding-top: 30px;
+    list-style-type: none;
+    padding-left:120px;
+    padding-bottom: 100px;
+}
+.location li:first-child{
+    font-weight: bold;
+    color:blue;
+}
+#contactus h1{
+  text-align: center;
+  font-size:50px;
+  color:white;
+  font-family: 'Bodoni Moda';
+  margin-top: -100px;
+}
+#contactus p{
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Bodoni Moda';
+}

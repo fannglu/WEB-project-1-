@@ -1,0 +1,40 @@
+.container-fluid{
+    padding:0px !important;
+}
+
+.lessondetail h1,h2{
+    font-family: 'Bodoni Moda';
+    text-align: center;
+    font-weight: bold;
+}
+.lessondetail h1{
+       color: white;
+    margin-top: -100px;
+}
+
+.bg-img{
+    background-size: cover;
+}
+.lessondetail h2{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+/* .location ul{
+    padding-top: 30px;
+    list-style-type: none;
+    /* padding-left:100px; */
+   /* padding-bottom: 100px;
+} */
+.location li{
+   list-style-type: none; 
+}
+.location div{
+    padding-bottom: 30px;
+}
+.location li:first-child{
+    font-weight: bold;
+    color:blue;
+}
+.col-sm-10{
+padding-top: 20px;
+}

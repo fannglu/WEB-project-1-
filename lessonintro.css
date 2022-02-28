@@ -1,0 +1,43 @@
+#lessonDetails .lessonimg {
+  background-image: url("images/which-lesson-is-best.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+ margin: 0;
+  --bs-gutter-x: 0;
+ 
+}
+#lessonDetails .lessonimg #lessonMT {
+  font-family: "Bodoni Moda";
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+#lessonDetails .lessonH {
+  font-family: "Bodoni Moda";
+  color: black;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
+  padding: 2em 0;
+}
+#lessonDetails .lessoninfo a {
+  color: #03b1f4;
+}
+#lessonDetails .lessoninfo {
+  padding-bottom: 1em;
+}
+#lessonDetails .content {
+  margin-bottom: 3em;
+}
+#lessonDetails .title {
+  margin-bottom: 0;
+}

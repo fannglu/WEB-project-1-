@@ -16,7 +16,7 @@ header {
 header .navContainer {
   height: 8em;
   background-color: #1a2e38;
- /* --bs-gutter-x: 0; */
+  /* --bs-gutter-x: 0; */
   height: 100%;
   display: flex;
 }
@@ -25,7 +25,6 @@ header .headerlogo img {
   display: flex;
   justify-content: flex-start;
   position: relative;
-  
 }
 
 header fa-solid {
@@ -66,7 +65,7 @@ header .navbar-expand-lg {
 }
 .list-unstyled a {
   color: #03B1F4 ;
-  font-weight: bold;
+ font-weight: bold;
 }
 .list-unstyled li {
   padding-top: 2px;
@@ -322,7 +321,7 @@ footer #copyright {
   margin: 2px 2px;
   border-radius: 50%;
 }
-}
+
 
 @media (max-width: 992px) {
   header {
@@ -383,7 +382,6 @@ footer #copyright {
     width: 100%;
     float: right;
     margin: 0;
-
   }
 
   footer #locations {
@@ -392,8 +390,19 @@ footer #copyright {
     justify-content: center;
   }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .navbar .megamenu {
     width: 100%;
+  }
+} */
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
   }
 }

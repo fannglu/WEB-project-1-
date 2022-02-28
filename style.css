@@ -1,3 +1,4 @@
+/* header */
 header {
   width: 100%;
   padding: 0;
@@ -15,7 +16,6 @@ header .headerlogo img {
   display: flex;
   justify-content: flex-start;
   position: relative;
-  
 }
 
 header fa-solid {
@@ -310,7 +310,6 @@ footer #copyright {
   margin: 2px 2px;
   border-radius: 50%;
 }
-}
 
 @media (max-width: 992px) {
   header {
@@ -384,8 +383,4 @@ footer #copyright {
   .navbar .megamenu {
     width: 100%;
   }
-}
-#awardmain {
-  font-family: "Bodoni Moda";
-  color: black;
 }

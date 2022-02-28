@@ -1,0 +1,341 @@
+/* Style guide*/
+/* Colors */
+/* #FFFFFF = white
+        #E4EAEA = light blue grey 
+        #1A2E38 = almost black but greenish 
+        #444444 = dark brown
+        #757576 = light brown grey
+        #03B1F4 = blue  */
+
+/* Navigation */
+
+header .navContainer {
+  height: 8em;
+  background-color:  #1A2E38;
+}
+header .main-menu {
+  display: flex;  
+}
+header .main-menu ul {
+  padding: 1.25em;
+}
+header .main-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  color: white;
+}
+/* Body */
+body {
+  background-color: white;
+}
+body main {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+body main .awards img {
+  height: 175px;
+}
+body .home  {
+  background-image: url("images/home.jpeg");
+  height: auto;
+  color: white;
+  text-align: center;
+}
+body .home .learningVideo {
+  padding: 20em 0;
+  
+}
+body .home .learningVideo span {
+  font-size: 50px;
+}
+body .home div.learningV {
+  display: flex;
+  padding:4em 18em;
+  
+}
+body .home .learningV p {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 65px 65px 65px;
+  width: 10em;
+  color: #03B1F4;
+  text-align: center;
+  padding: 30px 50px ;
+  margin-left: 1em;
+}
+body .homeregister, #nowhiring {
+text-align: center;
+margin: 2em 0;
+}
+body .homeregister img, #nowhiring img{
+  width:80em;
+}
+body .content4 {
+  margin: 2em 2em;
+  display: block;
+}
+body .content5 {
+  padding: 0.25em 0;
+}
+body .content5 button {
+  background-color: #03b1f4;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1em 0;
+  margin: 1em 0;
+  border-radius: 65px 65px 65px;
+  width: 10em;
+  border-style: none;
+  margin: 0 28em;
+}
+body .findlocation {
+  background-image: url("images/home-our-locations-bg.jpeg");
+  height: 45em;
+  color: white;
+  text-align: center;
+}
+body .findlocation h3 {
+  padding: 1em 0;
+  font-size: 40px;
+  padding-top: 4em;
+}
+body .findlocation h2 {
+  font-size: 50px;
+}
+body .findlocation p {
+  text-align: center;
+  font-size: 25px;
+}
+body .findlocation button {
+  /* background-color: #03b1f4; */
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1em 0;
+  margin: 1em 0;
+  border-radius: 65px 65px 65px;
+  width: 20em;
+  border-style: none;
+}
+/* Start Regentry Main*/
+#regentry-main {
+  text-align: center;
+}
+#regentry-main .row {
+  margin: 3em 2em 2em 2em;
+}
+#regentry-main .row img {
+  padding-top:0.5em;
+  padding-bottom: 0.5em;
+
+}
+#regentry-main .regtext-col-content {
+  text-align: left;
+  margin: 2em 2em 2em 0;
+  padding: 2em 2em 2em 6em;
+}
+#regentry-main .regentry-begin {
+  z-index: 2;
+  text-align: center;
+
+}
+/* #regentry-main .regentry-begin .infovedio div {
+  z-index: 2;
+  padding-top:300px;
+} */
+
+/* #regentry-main .regentry-regimg {
+  margin: 2em 2em 2em 2em;
+  display: block;
+} */
+/* .regentry-regimg img{
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+} */
+/* .regentry-hireimg img{
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+} */
+.regentry-begin img {
+  z-index: 1;
+  width:100%;
+  height:600px;
+}
+.regentry-begin div {
+  z-index: 2;
+  margin-top: -450px;
+  text-align: center;
+  color:white;
+  margin-bottom: 200px;
+}
+.regentry-begin h2 {
+  font-family: 'Bodoni Moda';
+  font-size: 48px;
+  font-weight: bold;
+  font-display: 4em;
+  text-align: center;
+}
+.regentry-begin-text {
+  margin-top:5em;
+}
+
+
+.regtext-col-content h2 {
+	font-family: 'Bodoni Moda';
+  font-size: 48px;
+  font-weight: bold;
+  font-display: 4em;
+}
+.regtext-col-content caption {
+  font-weight: bold;
+  color:red;
+}
+.regtext-col-content li a{
+  color:black;
+}
+.regtext-col-content li a:hover{
+  color:blue;
+}
+#registernow {
+  width:200px;
+  padding-top:10px;
+  padding-bottom:15px;
+}
+
+.regentry-location {
+  margin-top: 80px;
+}
+.regentry-location img {
+  z-index: 1;
+  width:100%;
+  height:600px;
+}
+
+.regentry-location div {
+  z-index: 2;
+  margin-top: -500px;
+  padding-left: 100px;
+  text-align: center;
+  color:white;
+}
+.regentry-location-text h2 {
+  font-family: 'Bodoni Moda';
+  font-size: 48px;
+  font-weight: bold;
+  font-display: 4em;
+}
+.regentry-location-text h3 {
+  font-family: 'Bodoni Moda';
+  font-size: 24px;
+  font-weight: bold;
+  font-display: 4em;
+}
+
+.regentry-location-text button{
+  background-color: #03B1F4;
+  font-size:16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 1em;
+}
+
+#findlocation {
+  width:300px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+   
+/* about page  */
+#about .aboutImg {
+  background-image: url("images/about-us-hero.jpeg");
+  background-size: cover;
+  height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+}
+#aboutText {
+  font-family: "Bodoni Moda";
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+#about #aboutPhil {
+  height: 450px;
+  text-align: center;
+  background-image: url("images/about-our-philosophy-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+#philText {
+  font-family: "Bodoni Moda";
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0 4em 0 4em;
+}
+#aboutJob {
+  height: 450px;
+  text-align: center;
+  background-image: url("images/about-we-do-a-pretty-good-job-bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+#aboutjobText {
+  font-family: "Bodoni Moda";
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 0 4em 0 4em;
+}
+#awardmain {
+  font-family: "Bodoni Moda";
+  color: black;
+}
+
+.awards {
+  margin-top:300px;
+  margin-bottom:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* End Regentry Main*/
